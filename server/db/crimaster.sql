@@ -49,14 +49,15 @@ CREATE TABLE `cri_users` (
   `id` int(10) NOT NULL auto_increment,
   `usr` varchar(50) default NULL,
   `pwd` varchar(50) default NULL,
-  `state` int(11) default NULL,
+  `state` int(11) default '1',
   `eml` varchar(50) default NULL,
   `ip` int(11) default NULL,
-  `lv` int(11) default NULL,
+  `lv` int(11) default '0',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `Index 2` (`usr`),
+  UNIQUE KEY `Index 4` (`eml`),
   KEY `Index 3` (`pwd`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `cri_users`
@@ -64,6 +65,7 @@ CREATE TABLE `cri_users` (
 
 LOCK TABLES `cri_users` WRITE;
 /*!40000 ALTER TABLE `cri_users` DISABLE KEYS */;
+INSERT INTO `cri_users` VALUES (1,'crimaster','crimaster',1,'crimaster@crimaster.com',NULL,0);
 /*!40000 ALTER TABLE `cri_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -76,4 +78,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-05  3:22:34
+-- Dump completed on 2018-03-05  9:38:29
