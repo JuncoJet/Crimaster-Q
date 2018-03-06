@@ -18,9 +18,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="380">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://F:/wamp/www/zcdc/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1516758402180" expanded="true" signature="25108:25119" ph="..." />
+                <marker date="1516758402180" expanded="true" signature="25266:25277" ph="..." />
+                <marker date="1516758402180" expanded="true" signature="25420:25432" ph="..." />
+                <marker date="1516758402180" expanded="true" signature="25572:25584" ph="..." />
+                <marker date="1516758402180" expanded="true" signature="25710:25722" ph="..." />
+                <marker date="1516758402180" expanded="true" signature="28908:28914" ph=" " />
+                <marker date="1516758402180" expanded="true" signature="28914:28920" ph=" " />
+                <marker date="1516758402180" expanded="true" signature="32875:32882" ph="×" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +57,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -158,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520307385051</updated>
-      <workItem from="1520307386260" duration="32000" />
+      <workItem from="1520307386260" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32000" />
+    <option name="totallyTimeSpent" value="723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
@@ -208,10 +228,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://F:/wamp/www/zcdc/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="38" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1516758402180" expanded="true" signature="25108:25119" ph="..." />
+            <marker date="1516758402180" expanded="true" signature="25266:25277" ph="..." />
+            <marker date="1516758402180" expanded="true" signature="25420:25432" ph="..." />
+            <marker date="1516758402180" expanded="true" signature="25572:25584" ph="..." />
+            <marker date="1516758402180" expanded="true" signature="25710:25722" ph="..." />
+            <marker date="1516758402180" expanded="true" signature="28908:28914" ph=" " />
+            <marker date="1516758402180" expanded="true" signature="28914:28920" ph=" " />
+            <marker date="1516758402180" expanded="true" signature="32875:32882" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
         </state>
       </provider>
